@@ -50,3 +50,37 @@ body {
     font-size: 18px;
     color: #ffffff;
 }
+
+.form-control input:focus,
+.form-control input:valid {
+    outline: 0;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: #9e9e9e;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
